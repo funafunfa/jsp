@@ -1,12 +1,13 @@
+/*
 function validate() {
     var
         surname = document.getElementById("second_name"),
         firstname = document.getElementById("first_name"),
         bdate = document.getElementById("date"),
-    tel = document.getElementById("tel"),
-    email = document.getElementById("email"),
-    country = document.getElementById("country"),
-    city = document.getElementById("city"),
+        tel = document.getElementById("tel"),
+        email = document.getElementById("email"),
+        country = document.getElementById("country"),
+        city = document.getElementById("city"),
         district = document.getElementById("district");
 
 
@@ -22,11 +23,6 @@ function validate() {
         firstname.style.backgroundColor = "write";
     }
 
-    if (username.value == "") {
-        username.style.backgroundColor = "red";
-    } else {
-        username.style.backgroundColor = "write";
-    }
 
     if (bdate.value == "") {
         bdate.style.backgroundColor = "red";
@@ -64,3 +60,5 @@ function validate() {
         district.style.backgroundColor = "write";
     }
 }
+
+    */
