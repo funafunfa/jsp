@@ -147,8 +147,7 @@
 
       <Host name="localhost"  appBase="webapps"
             unpackWARs="true" autoDeploy="true">
-
-        <Context path = "/" docBase = "C:\Users\dcamo\IdeaProjects\untitled\web" reloadable = "true"/>
+          <Context path = "/" docBase = "C:\Users\dcamo\IdeaProjects\untitled\web" reloadable = "true"></Context>
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->
         <!--

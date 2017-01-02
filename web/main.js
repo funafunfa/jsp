@@ -1,59 +1,66 @@
-function verifyButton() {
-  alert("Proste povidomlena");
-  result = confirm("pereviremo yaku knopky");
-  if (result) {
-    document.write("<p>Vi nat knopku ok </p>");
-  } else {
-    document.write("<p>Vi nat knopku otmena s</p>");
-  }
-}
-
 function validate() {
-  var surname = document.getElementById("surname"),
-    firstname = document.getElementById("firstname"),
-    username = document.getElementById("username");
-
-  if (surname.value == "") {
-    surname.style.backgroundColor = "red";
-  } else {
-    surname.style.backgroundColor = "write";
-  }
-
-  if (firstname.value == "") {
-    firstname.style.backgroundColor = "red";
-  } else {
-    firstname.style.backgroundColor = "write";
-  }
-
-  if (username.value == "") {
-    username.style.backgroundColor = "red";
-  } else {
-    username.style.backgroundColor = "write";
-  }
-}
+    var
+        surname = document.getElementById("second_name"),
+        firstname = document.getElementById("first_name"),
+        bdate = document.getElementById("date"),
+    tel = document.getElementById("tel"),
+    email = document.getElementById("email"),
+    country = document.getElementById("country"),
+    city = document.getElementById("city"),
+        district = document.getElementById("district");
 
 
-function Hello(){
-  do{
-    var name = prompt("Imya", '');
-    if (name == ""){
-      alert("Vi ne vveli");
+    if (surname.value == "") {
+        surname.style.backgroundColor = "red";
     } else {
-      var show = confirm("Vashe imya: " + name);
+        surname.style.backgroundColor = "write";
     }
-  } while (!show)
-  alert("hello " + name)
-}
 
-document.getElementById("refer").onmouseenter = function(){
-  Hello();
-};
+    if (firstname.value == "") {
+        firstname.style.backgroundColor = "red";
+    } else {
+        firstname.style.backgroundColor = "write";
+    }
 
+    if (username.value == "") {
+        username.style.backgroundColor = "red";
+    } else {
+        username.style.backgroundColor = "write";
+    }
 
-function sumss() {
-  var first = document.getElementById('first');
-  var second = document.getElementById('second');
-  var sum = document.getElementById('sum');
+    if (bdate.value == "") {
+        bdate.style.backgroundColor = "red";
+    } else {
+        bdate.style.backgroundColor = "write";
+    }
 
-  sum.value = parseInt(first.value) + parseInt(second.value);
+    if (tel.value == "") {
+        tel.style.backgroundColor = "red";
+    } else {
+        tel.style.backgroundColor = "write";
+    }
+
+    if (email.value == "") {
+        email.style.backgroundColor = "red";
+    } else {
+        email.style.backgroundColor = "write";
+    }
+
+    if (country.value == "") {
+        country.style.backgroundColor = "red";
+    } else {
+        country.style.backgroundColor = "write";
+    }
+
+    if (city.value == "") {
+        city.style.backgroundColor = "red";
+    } else {
+        city.style.backgroundColor = "write";
+    }
+
+    if (district.value == "") {
+        district.style.backgroundColor = "red";
+    } else {
+        district.style.backgroundColor = "write";
+    }
 }
